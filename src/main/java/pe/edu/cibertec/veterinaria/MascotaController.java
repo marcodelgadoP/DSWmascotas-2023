@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.AllArgsConstructor;
+import pe.edu.cibertec.veterinaria.controladores.MascotaRepository;
 import pe.edu.cibertec.veterinaria.entidades.Mascota;
-import pe.edu.cibertec.veterinaria.repositories.MascotaRepository;
-
+//listado-- primer serviciorest
 @RestController
 @AllArgsConstructor
 public class MascotaController {
